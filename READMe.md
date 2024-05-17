@@ -153,33 +153,33 @@ Creating a pull request (PR) from the release branch to the master branch is an 
 
 2. **Suggested Pull Request Title and Description**:
 
-**Title:**
-```
-Release 1.0 - Merge Release Branch to Master
-```
+    **Title:**
+    ```
+    Release 1.0 - Merge Release Branch to Master
+    ```
 
-**Description:**
-```markdown
-## Overview
-This pull request merges the `release-1.0` branch into the `master` branch. This release includes several new features and improvements. 
+    **Description:**
+    ```markdown
+    ## Overview
+    This pull request merges the `release-1.0` branch into the `master` branch. This release includes several new features and improvements. 
 
-## Features
-- **Greeting Feature**: Added a new script `greet.py` to print a greeting message.
-- **Farewell Feature**: Added a new script `farewell.py` to print a farewell message.
-- **Combined Greeting and Farewell**: Added a new script `combined.py` to print both greeting and farewell messages.
+    ## Features
+    - **Greeting Feature**: Added a new script `greet.py` to print a greeting message.
+    - **Farewell Feature**: Added a new script `farewell.py` to print a farewell message.
+    - **Combined Greeting and Farewell**: Added a new script `combined.py` to print both greeting and farewell messages.
 
-## Changes
-- `greet.py`: A new script to greet the user.
-- `farewell.py`: A new script to bid farewell to the user.
-- `combined.py`: A new script that combines both greeting and farewell messages.
+    ## Changes
+    - `greet.py`: A new script to greet the user.
+    - `farewell.py`: A new script to bid farewell to the user.
+    - `combined.py`: A new script that combines both greeting and farewell messages.
 
-## Testing
-All new features have been tested locally and are functioning as expected. Please review the changes and ensure all new scripts are working correctly.
+    ## Testing
+    All new features have been tested locally and are functioning as expected. Please review the changes and ensure all new scripts are working correctly.
 
-## Additional Notes
-Please ensure that any feedback or requested changes are addressed before merging this PR into the `master` branch. Once merged, this release will be ready for production deployment.
+    ## Additional Notes
+    Please ensure that any feedback or requested changes are addressed before merging this PR into the `master` branch. Once merged, this release will be ready for production deployment.
 
-```
+    ```
 By following these steps, you ensure that all individual feature changes are properly reviewed and tested before being integrated into the main codebase. This helps maintain the quality and stability of the master branch.
 
 3. **Squash and Merge the Pull Request**:
